@@ -4,11 +4,11 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Respond Rate Blog</title>
-	<link href="https://blog.marinakittaka.com/atom.xml" rel="self"/>
-	<link href="https://blog.marinakittaka.com/"/>
+	<title>Zonelets</title>
+	<link href="https://zone.marinakittaka.com/atom.xml" rel="self"/>
+	<link href="https://zone.marinakittaka.com/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>https://blog.marinakittaka.com</id>
+	<id>https://zone.marinakittaka.com</id>
 	<author>
 		<name>Marina Kittaka</name>
 		<email>marinakittaka@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="https://blog.marinakittaka.com{{ post.url }}"/>
+			<link href="https://zone.marinakittaka.com{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>https://blog.marinakittaka.com{{ post.id }}</id>
+			<id>https://zone.marinakittaka.com{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}

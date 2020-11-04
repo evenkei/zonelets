@@ -4,7 +4,7 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<!-- set meta viewport for responsive design -->
+			<!-- set meta viewport--this helps with responsive design, keeping the text size readable across different devices.-->
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- google fonts -->
 			<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -22,14 +22,12 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
-			
 			{{ content }}
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:marinakittaka@gmail.com">email me!</a></li>
-					<li><a href="https://blog.marinakittaka.com/atom.xml">RSS</a></li> 
+					<li><a href="https://zone.marinakittaka.com/atom.xml">RSS</a></li> 
 				</ul>
 			</footer>
 		</body>
