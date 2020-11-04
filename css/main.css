@@ -1,0 +1,127 @@
+html {
+	background-image: url('/images/respondrateBG.png');
+	background-position: top;
+}
+
+body {
+	font-family:'Roboto', 'Helvetica', 'Arial', 'Sans-Serif';
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	margin: 60px auto;
+    width: 80%;
+	max-width: 700px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 12px 0px #555;
+    padding: 10px 5% 20px 5%;
+	font-size: 18px;
+	line-height: 1.6em;
+    color: #505050;
+}
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+	line-height: 1em;
+	font-family:'Cormorant Infant', 'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: normal;
+	color: #3b4334;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+p.meta {
+	font-size: 0.8em;
+	color:#999999;
+}
+p, li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 0.8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.4em;
+	padding: 0;
+}
+
+ul.posts li {
+    list-style: none;
+	margin-bottom: 0.4em;
+}
+
+details {
+	margin-bottom: 20px;
+}
+
+details > summary {
+	padding: 4px;
+	width: 200px;
+	border: none;
+	cursor: pointer;
+	font-size: 1.4em;
+	color: #ffffff;
+}
+
+details > summary.hint {
+	background-color: #cf66f1;
+}
+/*
+details[open] > summary.hint {
+	background-color: #e08f2b;
+}*/
+
+details > summary.onlyanswer {
+	background-color: #3991ff;
+}
+/*
+details[open] > summary.onlyanswer {
+	background-color: #2d5bc4;
+}*/
+
+details > summary.solution {
+	background-color: #ec5050;
+}
+/*
+details[open] > summary.solution {
+	background-color: #ac5dd5;
+}*/
+
+details > p {
+	padding: 8px 0px; 
+}
+
+div.expandblock {
+	background-color: #eeeeee;
+	padding: 4px 12px;
+}
+
+img {
+	max-width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+}
+
+img.fancyline {
+	margin-top: 3em;
+	margin-bottom: 4em;
+}
