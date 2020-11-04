@@ -1,2 +1,2 @@
-# Respond Rate
-A blog about video games by Marina Kittaka
+# Zonelets
+A small, simple, customizable blog template.
